@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Trading Platform</title>
+    <link rel="stylesheet" href="stock-styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Stock Trading Platform</h1>
+        </header>
+        <main>
+            <section id="market-data">
+                <h2>Market Data</h2>
+                <div id="market-data-display"></div>
+            </section>
+            <section id="buy-sell-stocks">
+                <h2>Buy/Sell Stocks</h2>
+                <form id="trade-form">
+                    <input type="text" id="stock-symbol" placeholder="Stock Symbol">
+                    <input type="number" id="stock-quantity" placeholder="Quantity">
+                    <div class="button-container">
+                        <button type="button" id="buy-button">Buy</button>
+                        <button type="button" id="sell-button">Sell</button>
+                    </div>
+                </form>                
+            </section>      
+            <section id="portfolio">
+                <h2>Portfolio</h2>
+                <div id="portfolio-display"></div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="contact">
+            <p>&copy; 2024 Portfolio</p>
+            <p>This website is made by P. Hari Sai</p>
+            <div class="social-links">
+                <a href="https://github.com/harisaigithub" target="_blank"><img src="asserts/github-logo.png"
+                        alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/parasa-hari-sai" target="_blank"><img
+                        src="asserts/linkedin-logo.png" alt="LinkedIn"></a>
+                <a href="https://parasa-harisai-portfolio.netlify.app/" target="_blank"><img
+                        src="asserts/website-logo.png" alt="Website"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="stock-script.js"></script>
+</body>
+</html>
